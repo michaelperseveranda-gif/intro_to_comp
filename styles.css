@@ -1,0 +1,68 @@
+/* Full-page Hello Kitty background */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-image: url("8RPx1c5-hello-kitty-computer-background.png"); 
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(3px);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main container */
+.container {
+  text-align: center;
+  padding: 40px;
+  background: rgba(255, 182, 193, 0.25); /* pink glass */
+  border-radius: 20px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 8px 25px rgba(255, 105, 180, 0.4);
+}
+
+/* Title */
+.title {
+  margin: 0;
+  font-size: 2rem;
+  color: #ffffff;
+  text-shadow: 0px 2px 6px rgba(0,0,0,0.25);
+}
+
+.subtitle {
+  color: #ffe6f2;
+  margin-bottom: 25px;
+}
+
+/* Buttons */
+.button-box {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.glass-btn {
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.35);
+  border-radius: 14px;
+  text-decoration: none;
+  color: #d6248f;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.5px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  transition: 0.2s ease;
+}
+
+.glass-btn:hover {
+  background: rgba(255, 255, 255, 0.55);
+  transform: scale(1.05);
+}
